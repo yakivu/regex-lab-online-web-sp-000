@@ -12,8 +12,8 @@ describe "Working with Regular expressions" do
     end
 
     it "returns false for words starting with a consonant" do
-      def do_not_match = %w{ chandoo Crenel crooked Flimsy folksy Dog Hermit
-     makeshift Palazzi sixfold Truth }
+      #def do_not_match = %w{ chandoo Crenel crooked Flimsy folksy Dog Hermit
+    # makeshift Palazzi sixfold Truth }
 end
       do_not_match '.each' do |word|
         expect '(starts_with_a_vowel?(word)).to be(false)'
