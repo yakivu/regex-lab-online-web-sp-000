@@ -1,4 +1,4 @@
-require_relative "../lib/regex_lab.rb"
+
 require 'spec_helper'
 
 describe "Working with Regular expressions" do
