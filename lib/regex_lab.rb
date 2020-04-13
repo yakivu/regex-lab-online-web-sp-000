@@ -1,4 +1,4 @@
-require_relative "../lib/regex_lab.rb"
+
 
 def starts_with_a_vowel?(word)
 puts (word).scan(/\w+[aeiou])
