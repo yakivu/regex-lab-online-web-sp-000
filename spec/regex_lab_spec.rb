@@ -26,8 +26,8 @@ describe "Working with Regular expressions" do
       words_string = "unassuming ambiguous understanding pomp circumstance uninteresting uncompromising grouchy corollary"
       
       expect '(words_starting_with_un_and_ending_with_ing(words_string).count).to eq(4)'
-      expect(words_starting_with_un_and_ending_with_ing(words_string)).to include("understanding")
-      expect(words_starting_with_un_and_ending_with_ing(words_string)).not_to include("pomp")
+      expect '(words_starting_with_un_and_ending_with_ing(words_string)).to include("understanding")'
+      expect '(words_starting_with_un_and_ending_with_ing(words_string)).not_to include("pomp")'
     end
   end
 
