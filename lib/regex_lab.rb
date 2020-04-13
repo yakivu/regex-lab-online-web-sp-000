@@ -21,3 +21,6 @@ def valid_phone_number?(phone)
 
 end
 
+def do_not_match = %w{ chandoo Crenel crooked Flimsy folksy Dog Hermit
+     makeshift Palazzi sixfold Truth }
+end
